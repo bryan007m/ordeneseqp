@@ -7,13 +7,7 @@
     max-width: 300px; /* Establece un ancho máximo para evitar que ocupe demasiado espacio */
 }
 
-body {
-    display: flex; /* Usa flexbox para centrar el contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Usa toda la altura de la ventana */
-    margin: 0; /* Elimina los márgenes predeterminados */
-}
+
 
 * {
     box-sizing: content-box;
