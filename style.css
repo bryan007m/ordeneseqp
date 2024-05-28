@@ -159,6 +159,11 @@ article address {
 }
 
 /* table meta & balance */
+table.meta2,
+table.balance {
+    float: left;
+    width: 36%;
+}
 table.meta,
 table.balance {
     float: right;
