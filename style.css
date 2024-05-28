@@ -1,5 +1,12 @@
 /* reset */
-
+.centered-box {
+    display: block; /* Ensure the block takes up the full width */
+    margin: 0 auto; /* Center the block horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border: 2px solid #000; /* Add a border to create the box effect */
+    text-align: center; /* Center align text inside the block */
+    max-width: 300px; /* Set a max-width to avoid it taking up too much space */
+}
 
 * {
     box-sizing: content-box;
