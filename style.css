@@ -1,11 +1,18 @@
 /* reset */
 .centered-box {
-    display: block; /* Ensure the block takes up the full width */
-    margin: 0 auto; /* Center the block horizontally */
-    padding: 20px; /* Add some padding for spacing */
-    border: 2px solid #000; /* Add a border to create the box effect */
-    text-align: center; /* Center align text inside the block */
-    max-width: 300px; /* Set a max-width to avoid it taking up too much space */
+    display: block; /* Asegúrate de que el bloque ocupe todo el ancho disponible */
+    margin: 0 auto; /* Centra el bloque horizontalmente */
+    padding: 20px; /* Añade algo de relleno para el espacio */
+    text-align: center; /* Alinea el texto al centro dentro del bloque */
+    max-width: 300px; /* Establece un ancho máximo para evitar que ocupe demasiado espacio */
+}
+
+body {
+    display: flex; /* Usa flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Usa toda la altura de la ventana */
+    margin: 0; /* Elimina los márgenes predeterminados */
 }
 
 * {
