@@ -1,11 +1,5 @@
 /* reset */
-.centered-box {
-    display: block; /* Asegúrate de que el bloque ocupe todo el ancho disponible */
-    margin: 0 auto; /* Centra el bloque horizontalmente */
-    padding: 20px; /* Añade algo de relleno para el espacio */
-    text-align: center; /* Alinea el texto al centro dentro del bloque */
-    max-width: 300px; /* Establece un ancho máximo para evitar que ocupe demasiado espacio */
-}
+
 
 
 
