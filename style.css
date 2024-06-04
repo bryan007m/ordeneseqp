@@ -136,6 +136,7 @@ header input {
 article,
 article address,
 table.meta,
+
 table.inventory {
     margin: 0 0 1em;
     clear: both;
@@ -156,6 +157,9 @@ article address {
     float: left;
     font-size: 125%;
     font-weight: bold;
+}
+article.meta01{
+       margin: 0 0 1em;
 }
 
 /* table meta & balance */
